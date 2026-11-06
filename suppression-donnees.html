@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Suppression des Données Utilisateur — Komara Agency Bot 🇬🇳</title>
+<meta name="description" content="Comment demander la suppression de vos données personnelles auprès de Komara Agency (bot WhatsApp Aya) : procédure, délais et confirmation.">
+<style>
+  :root{
+    --noir:#0b0b0c; --noir-2:#121215; --or:#d4af37; --or-clair:#f0d98a;
+    --texte:#e9e6df; --texte-doux:#a8a49b; --bord:rgba(212,175,55,.28);
+  }
+  *{box-sizing:border-box}
+  html{scroll-behavior:smooth}
+  body{
+    margin:0; background:radial-gradient(1200px 600px at 50% -10%, #1b1b1f 0%, var(--noir) 55%);
+    color:var(--texte); font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    line-height:1.65; -webkit-font-smoothing:antialiased;
+  }
+  .wrap{max-width:840px;margin:0 auto;padding:28px 20px 72px}
+  header{
+    text-align:center; padding:34px 20px 26px; border:1px solid var(--bord); border-radius:18px;
+    background:linear-gradient(180deg, rgba(212,175,55,.08), rgba(212,175,55,0));
+  }
+  .k{
+    width:56px;height:56px;margin:0 auto 14px; display:flex;align-items:center;justify-content:center;
+    border:2px solid var(--or);border-radius:14px; color:var(--or-clair);font-size:30px;font-weight:800;
+    font-family:Georgia,"Times New Roman",serif; box-shadow:0 0 24px rgba(212,175,55,.25);
+  }
+  h1{font-size:clamp(21px,5vw,29px);margin:0 0 6px;letter-spacing:.3px;font-weight:750}
+  .sous{color:var(--or);font-size:14px;letter-spacing:2px;text-transform:uppercase;margin:0 0 10px}
+  .maj{color:var(--texte-doux);font-size:13px;margin:0}
+  .intro{
+    margin:22px 0 0;padding:16px 18px; border-left:3px solid var(--or);
+    background:rgba(255,255,255,.03); border-radius:0 10px 10px 0; color:var(--texte-doux);font-size:15px;
+  }
+  nav.sommaire{
+    margin:26px 0 0;padding:16px 18px; border:1px solid rgba(255,255,255,.08);border-radius:14px; background:var(--noir-2);
+  }
+  nav.sommaire p{margin:0 0 10px;color:var(--or-clair);font-size:13px;letter-spacing:1.5px;text-transform:uppercase}
+  nav.sommaire ol{margin:0;padding-left:20px;columns:2;column-gap:28px;font-size:14px}
+  nav.sommaire a{color:var(--texte);text-decoration:none}
+  nav.sommaire a:hover{color:var(--or-clair);text-decoration:underline}
+  @media(max-width:520px){nav.sommaire ol{columns:1}}
+  section{
+    margin:26px 0 0;padding:22px 20px; border:1px solid rgba(255,255,255,.07);border-radius:16px;
+    background:linear-gradient(180deg, rgba(255,255,255,.025), rgba(255,255,255,0));
+  }
+  h2{font-size:17px;margin:0 0 12px;color:var(--or-clair);display:flex;gap:10px;align-items:baseline}
+  h2 .num{
+    font-family:Georgia,serif;font-size:13px;color:var(--or); border:1px solid var(--bord);border-radius:50%;
+    min-width:24px;height:24px;display:inline-flex;align-items:center;justify-content:center;
+  }
+  h3{font-size:15px;margin:18px 0 6px;color:var(--texte)}
+  p,li{font-size:15px;color:var(--texte)}
+  ul,ol{padding-left:20px}
+  li{margin:6px 0}
+  a{color:var(--or-clair)}
+  strong{color:#fff}
+  .steps{list-style:none;padding:0;margin:14px 0 0;counter-reset:s}
+  .steps li{
+    position:relative;padding:14px 16px 14px 54px;margin:10px 0;border-radius:12px;
+    background:rgba(255,255,255,.03);border:1px solid rgba(255,255,255,.07);
+  }
+  .steps li:before{
+    counter-increment:s;content:counter(s);
+    position:absolute;left:16px;top:14px;width:26px;height:26px;border-radius:50%;
+    background:linear-gradient(180deg,var(--or-clair),var(--or));color:#171308;
+    display:flex;align-items:center;justify-content:center;font-weight:800;font-size:14px;
+  }
+  .note{
+    margin-top:12px;padding:12px 14px;border-radius:10px; background:rgba(212,175,55,.08);
+    border:1px solid var(--bord); font-size:14px;color:var(--texte);
+  }
+  .cta{
+    margin-top:26px;padding:26px 20px;border-radius:16px; border:1px solid var(--bord);
+    background:linear-gradient(135deg, rgba(212,175,55,.16), rgba(212,175,55,.02)); text-align:center;
+  }
+  .cta h2{justify-content:center;margin-bottom:8px}
+  .cta .btn{
+    display:inline-block;margin:10px 6px 0;padding:13px 22px;
+    background:linear-gradient(180deg,var(--or-clair),var(--or)); color:#171308;border-radius:999px;
+    text-decoration:none; font-weight:800;font-size:15px;letter-spacing:.3px; box-shadow:0 10px 26px rgba(212,175,55,.28);
+  }
+  .cta .btn.ghost{
+    background:transparent;color:var(--or-clair);border:1px solid var(--bord);box-shadow:none;
+  }
+  .cta small{display:block;margin-top:16px;color:var(--texte-doux);font-size:12.5px}
+  footer{text-align:center;margin-top:34px;color:var(--texte-doux);font-size:12.5px}
+  footer .drap{font-size:15px}
+  .legal-nav{
+    margin:26px 0 0;padding:16px 18px;border:1px solid rgba(255,255,255,.08);border-radius:14px;
+    background:var(--noir-2);text-align:center;
+  }
+  .legal-nav p{margin:0 0 10px;color:var(--or-clair);font-size:12.5px;letter-spacing:1.5px;text-transform:uppercase}
+  .legal-nav a{
+    display:inline-block;margin:5px 6px;padding:9px 15px;border:1px solid var(--bord);border-radius:999px;
+    color:var(--texte);text-decoration:none;font-size:13.5px;
+  }
+  .legal-nav a:hover{border-color:var(--or);color:var(--or-clair)}
+  .legal-nav a.actif{background:rgba(212,175,55,.16);color:var(--or-clair)}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <header>
+    <div class="k">K</div>
+    <p class="sous">Komara Agency</p>
+    <h1>Suppression des Données Utilisateur — Komara Agency Bot <span aria-label="Guinée">🇬🇳</span></h1>
+    <p class="maj">Dernière mise à jour : 6 novembre 2026 · Version 1.0</p>
+    <p class="intro">Vous pouvez demander à tout moment la suppression des données personnelles liées à votre conversation avec le bot WhatsApp de Komara Agency (assistante <strong>Aya</strong>). Voici la procédure complète, les délais et la confirmation que nous vous envoyons.</p>
+  </header>
+
+  <nav class="sommaire" aria-label="Sommaire">
+    <p>Sommaire</p>
+    <ol>
+      <li><a href="#concernes">Données concernées</a></li>
+      <li><a href="#comment">Comment faire la demande</a></li>
+      <li><a href="#infos">Informations à fournir</a></li>
+      <li><a href="#delai">Délais et confirmation</a></li>
+      <li><a href="#conserve">Ce qui peut être conservé</a></li>
+      <li><a href="#stop">Arrêter les messages du bot</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ol>
+  </nav>
+
+  <section id="concernes">
+    <h2><span class="num">1</span>Données concernées</h2>
+    <p>La suppression porte sur les données suivantes, si elles existent chez nous :</p>
+    <ul>
+      <li>votre numéro WhatsApp ou identifiant Telegram et votre nom de profil ;</li>
+      <li>l'historique des messages échangés avec le bot et avec notre équipe ;</li>
+      <li>les fichiers et documents que vous nous avez envoyés ;</li>
+      <li>les notes de devis et de suivi commercial qui vous concernent.</li>
+    </ul>
+    <p>Les documents comptables (factures) ne peuvent pas être supprimés avant la fin de la durée légale de conservation : voir la section 5.</p>
+  </section>
+
+  <section id="comment">
+    <h2><span class="num">2</span>Comment faire la demande</h2>
+    <p>Trois moyens, au choix. Aucun formulaire compliqué : un simple message suffit.</p>
+    <ol class="steps">
+      <li><strong>Par e-mail</strong> : écrivez à <a href="mailto:ndinekomara2442@gmail.com?subject=Suppression%20de%20mes%20donn%C3%A9es%20-%20Komara%20Agency%20Bot&body=Bonjour%2C%20je%20souhaite%20la%20suppression%20de%20mes%20donn%C3%A9es%20personnelles.%0A%0ANum%C3%A9ro%20WhatsApp%20utilis%C3%A9%20%3A%20%0ANom%20ou%20pseudo%20%3A%20%0A">ndinekomara2442@gmail.com</a> avec l'objet « Suppression de mes données ». Le lien ouvre un e-mail déjà prérempli.</li>
+      <li><strong>Par WhatsApp</strong> : envoyez « Supprimer mes données » au <a href="https://wa.me/212701986219?text=Supprimer%20mes%20donn%C3%A9es%20-%20Komara%20Agency%20Bot">+212 701 986 219</a>. La demande est enregistrée et traitée par notre équipe.</li>
+      <li><strong>Directement dans la conversation</strong> avec le bot : tapez « supprimer mes données » ou « humain » pour être mis en relation avec l'équipe, qui prend la demande en compte.</li>
+    </ol>
+    <div class="note">Vous pouvez aussi demander une simple copie de vos données (droit d'accès) par les mêmes moyens, sans rien supprimer.</div>
+  </section>
+
+  <section id="infos">
+    <h2><span class="num">3</span>Informations à fournir</h2>
+    <p>Pour retrouver votre dossier sans risque d'erreur, indiquez :</p>
+    <ul>
+      <li>le numéro WhatsApp (avec l'indicatif pays) ou l'identifiant Telegram utilisé ;</li>
+      <li>le nom ou pseudo que vous avez communiqué ;</li>
+      <li>si possible, la période approximative de vos échanges ;</li>
+      <li>le périmètre souhaité : tout supprimer, ou seulement une partie.</li>
+    </ul>
+    <p>Ne nous transmettez jamais de mot de passe ni de code de vérification.</p>
+  </section>
+
+  <section id="delai">
+    <h2><span class="num">4</span>Délais et confirmation</h2>
+    <ul>
+      <li><strong>Accusé de réception</strong> : sous 72 heures ouvrées.</li>
+      <li><strong>Vérification</strong> : nous confirmons que la demande vient bien du titulaire du numéro concerné.</li>
+      <li><strong>Suppression effective</strong> : sous 30 jours calendaires à compter de la confirmation.</li>
+      <li><strong>Confirmation finale</strong> : un message ou e-mail vous indique ce qui a été supprimé et ce qui a été conservé, avec le motif.</li>
+    </ul>
+    <p>Si nous avons besoin d'une précision, le délai de 30 jours court à partir de votre réponse.</p>
+  </section>
+
+  <section id="conserve">
+    <h2><span class="num">5</span>Ce qui peut être conservé</h2>
+    <p>Certaines données échappent à la suppression, pour des raisons légales ou de sécurité :</p>
+    <ul>
+      <li><strong>Factures et pièces comptables</strong> : conservées pendant la durée légale applicable au Maroc (jusqu'à 10 ans), avec le minimum d'informations nécessaires.</li>
+      <li><strong>Preuve de la demande de suppression</strong> : conservée pour démontrer que nous avons respecté votre droit.</li>
+      <li><strong>Journaux techniques anonymisés</strong> : statistiques agrégées, sans lien avec votre identité.</li>
+    </ul>
+    <p>Ces données sont isolées et ne sont plus utilisées pour vous contacter ni pour du marketing.</p>
+  </section>
+
+  <section id="stop">
+    <h2><span class="num">6</span>Arrêter les messages du bot</h2>
+    <p>Si vous souhaitez seulement que le bot cesse de vous écrire, sans supprimer vos données :</p>
+    <ul>
+      <li>envoyez « stop » dans la conversation ;</li>
+      <li>ou bloquez le contact dans WhatsApp ;</li>
+      <li>ou écrivez-nous pour demander une opposition au traitement.</li>
+    </ul>
+    <p>Vous pourrez toujours reprendre la conversation plus tard en nous écrivant à nouveau.</p>
+  </section>
+
+  <div class="cta" id="contact">
+    <h2><span class="num">7</span>Contact</h2>
+    <p><strong>Komara Agency</strong> — Casablanca, Maroc 🇬🇳<br>Référent données personnelles : Ndine Komara</p>
+    <a class="btn" href="mailto:ndinekomara2442@gmail.com?subject=Suppression%20de%20mes%20donn%C3%A9es%20-%20Komara%20Agency%20Bot&body=Bonjour%2C%20je%20souhaite%20la%20suppression%20de%20mes%20donn%C3%A9es%20personnelles.%0A%0ANum%C3%A9ro%20WhatsApp%20utilis%C3%A9%20%3A%20%0ANom%20ou%20pseudo%20%3A%20%0A">Demander la suppression par e-mail</a>
+    <a class="btn ghost" href="https://wa.me/212701986219?text=Supprimer%20mes%20donn%C3%A9es%20-%20Komara%20Agency%20Bot">Demander via WhatsApp</a>
+    <small>ndinekomara2442@gmail.com · +212 701 986 219 · Réponse 7j/7</small>
+  </div>
+
+  <nav class="legal-nav" aria-label="Pages légales">
+    <p>Pages légales</p>
+    <a href="index.html">Conditions de Service</a>
+    <a href="confidentialite.html">Politique de Confidentialité</a>
+    <a href="suppression-donnees.html" class="actif">Suppression des données utilisateur</a>
+  </nav>
+
+  <footer>
+    <p>© 2026 Komara Agency — Tous droits réservés · <span class="drap">🇬🇳</span></p>
+    <p>Suppression des Données Utilisateur — Komara Agency Bot · Version 1.0 · 6 novembre 2026</p>
+  </footer>
+
+</div>
+</body>
+</html>
