@@ -4,6 +4,9 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Conditions de Service — Komara Agency Bot 🇬🇳</title>
+<link rel="icon" type="image/png" sizes="64x64" href="assets/favicon-64.png">
+<link rel="icon" type="image/png" sizes="256x256" href="assets/logo-256.png">
+<link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
 <meta name="description" content="Conditions générales de service du bot WhatsApp Komara Agency (assistante Aya) — Komara Agency, Casablanca.">
 <style>
   :root{
@@ -25,6 +28,12 @@
     line-height:1.65;
     -webkit-font-smoothing:antialiased;
   }
+  body::before{
+    content:"";position:fixed;top:0;left:0;right:0;height:4px;z-index:800;
+    background:linear-gradient(90deg,#d11231 0 33.33%,#f5cf1b 33.33% 66.66%,#009a44 66.66% 100%);
+  }
+  .footer-logo-img{margin:0 0 10px;line-height:0}
+  .footer-logo-img img{border-radius:50%;box-shadow:0 0 16px rgba(212,175,55,.22)}
   .wrap{max-width:840px;margin:0 auto;padding:28px 20px 72px}
   header{
     text-align:center;
@@ -34,12 +43,8 @@
     background:linear-gradient(180deg, rgba(212,175,55,.08), rgba(212,175,55,0));
   }
   .k{
-    width:56px;height:56px;margin:0 auto 14px;
-    display:flex;align-items:center;justify-content:center;
-    border:2px solid var(--or);border-radius:14px;
-    color:var(--or-clair);font-size:30px;font-weight:800;
-    font-family:Georgia,"Times New Roman",serif;
-    box-shadow:0 0 24px rgba(212,175,55,.25);
+    display:block;width:76px;height:76px;margin:0 auto 16px;border-radius:50%;
+    box-shadow:0 0 28px rgba(212,175,55,.30), 0 0 0 1px rgba(212,175,55,.22);
   }
   h1{
     font-size:clamp(22px,5vw,30px);
@@ -128,7 +133,7 @@
 <div class="wrap">
 
   <header>
-    <div class="k">K</div>
+    <img class="k" src="assets/logo-256.png" alt="Logo Komara Agency" width="76" height="76">
     <p class="sous">Komara Agency</p>
     <h1>Conditions de Service — Komara Agency Bot <span aria-label="Guinée">🇬🇳</span></h1>
     <p class="maj">Dernière mise à jour : 6 novembre 2026 · Version 1.1</p>
@@ -316,6 +321,7 @@
   </nav>
 
   <footer>
+    <p class="footer-logo-img"><img src="assets/logo-128.png" alt="Komara Agency" width="44" height="44"></p>
     <p>© 2026 Komara Agency — Tous droits réservés · <span class="drap">🇬🇳</span></p>
     <p>Conditions de Service — Komara Agency Bot · Version 1.1 · 6 novembre 2026</p>
   </footer>
