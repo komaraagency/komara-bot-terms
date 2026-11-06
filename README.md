@@ -1,9 +1,15 @@
-# Komara Agency Bot — Conditions de Service
+# Komara Agency Bot — Pages légales
 
-Page publique des conditions de service du bot WhatsApp de **Komara Agency** (assistante Aya).
+Documents publics du bot WhatsApp de **Komara Agency** (assistante Aya).
 
-- Page : https://komaraagency.github.io/komara-bot-terms/
-- Version : 1.0 — 6 novembre 2026
-- Contact : N-Dine Komara — WhatsApp +212 701 986 219 (Casablanca, Maroc)
+1. Conditions de Service — `index.html` (v1.2)
+2. Politique de Confidentialité — `confidentialite.html` (v1.0)
+3. Suppression des Données Utilisateur — `suppression-donnees.html` (v1.0)
 
+URLs publiques :
+- https://komaraagency.github.io/komara-bot-terms/
+- https://komaraagency.github.io/komara-bot-terms/confidentialite.html
+- https://komaraagency.github.io/komara-bot-terms/suppression-donnees.html
+
+Contact : N-Dine Komara — ndinekomara2442@gmail.com — WhatsApp +212 701 986 219 (Casablanca, Maroc).
 Tous les tarifs sont exprimés en euros (€).
