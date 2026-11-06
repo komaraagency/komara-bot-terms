@@ -109,6 +109,17 @@
   }
   .contact .mail{margin:14px 0 0;font-size:14.5px;color:var(--texte)}
   .contact small{display:block;margin-top:14px;color:var(--texte-doux);font-size:12.5px}
+  .legal-nav{
+    margin:26px 0 0;padding:16px 18px;border:1px solid rgba(255,255,255,.08);border-radius:14px;
+    background:var(--noir-2);text-align:center;
+  }
+  .legal-nav p{margin:0 0 10px;color:var(--or-clair);font-size:12.5px;letter-spacing:1.5px;text-transform:uppercase}
+  .legal-nav a{
+    display:inline-block;margin:5px 6px;padding:9px 15px;border:1px solid var(--bord);border-radius:999px;
+    color:var(--texte);text-decoration:none;font-size:13.5px;
+  }
+  .legal-nav a:hover{border-color:var(--or);color:var(--or-clair)}
+  .legal-nav a.actif{background:rgba(212,175,55,.16);color:var(--or-clair)}
   footer{text-align:center;margin-top:34px;color:var(--texte-doux);font-size:12.5px}
   footer .drap{font-size:15px}
 </style>
@@ -250,6 +261,7 @@
     <h3>Vos droits</h3>
     <p>Vous pouvez demander l'accès, la rectification ou la suppression de vos données à tout moment en écrivant à <a href="mailto:ndinekomara2442@gmail.com">ndinekomara2442@gmail.com</a> ou via WhatsApp au +212 701 986 219 (voir section Contact).</p>
     <p>Nous ne vendons ni ne louons vos données personnelles à des tiers.</p>
+    <p>Le détail complet figure dans notre <a href="confidentialite.html">Politique de Confidentialité</a>. La procédure pour tout supprimer est décrite sur la page <a href="suppression-donnees.html">Suppression des données utilisateur</a>.</p>
   </section>
 
   <section id="tiers">
@@ -295,6 +307,13 @@
     <p class="mail">E-mail : <a href="mailto:ndinekomara2442@gmail.com">ndinekomara2442@gmail.com</a></p>
     <small>+212 701 986 219 · ndinekomara2442@gmail.com · Réponse 7j/7</small>
   </div>
+
+  <nav class="legal-nav" aria-label="Pages légales">
+    <p>Pages légales</p>
+    <a href="index.html" class="actif">Conditions de Service</a>
+    <a href="confidentialite.html">Politique de Confidentialité</a>
+    <a href="suppression-donnees.html">Suppression des données utilisateur</a>
+  </nav>
 
   <footer>
     <p>© 2026 Komara Agency — Tous droits réservés · <span class="drap">🇬🇳</span></p>
