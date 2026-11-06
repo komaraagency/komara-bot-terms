@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Politique de Confidentialité — Komara Agency Bot 🇬🇳</title>
+<meta name="description" content="Politique de confidentialité du bot WhatsApp Komara Agency (assistante Aya) : données collectées, finalités, durées de conservation et droits.">
+<style>
+  :root{
+    --noir:#0b0b0c; --noir-2:#121215; --or:#d4af37; --or-clair:#f0d98a;
+    --texte:#e9e6df; --texte-doux:#a8a49b; --bord:rgba(212,175,55,.28);
+  }
+  *{box-sizing:border-box}
+  html{scroll-behavior:smooth}
+  body{
+    margin:0; background:radial-gradient(1200px 600px at 50% -10%, #1b1b1f 0%, var(--noir) 55%);
+    color:var(--texte); font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    line-height:1.65; -webkit-font-smoothing:antialiased;
+  }
+  .wrap{max-width:840px;margin:0 auto;padding:28px 20px 72px}
+  header{
+    text-align:center; padding:34px 20px 26px; border:1px solid var(--bord); border-radius:18px;
+    background:linear-gradient(180deg, rgba(212,175,55,.08), rgba(212,175,55,0));
+  }
+  .k{
+    width:56px;height:56px;margin:0 auto 14px; display:flex;align-items:center;justify-content:center;
+    border:2px solid var(--or);border-radius:14px; color:var(--or-clair);font-size:30px;font-weight:800;
+    font-family:Georgia,"Times New Roman",serif; box-shadow:0 0 24px rgba(212,175,55,.25);
+  }
+  h1{font-size:clamp(22px,5vw,30px);margin:0 0 6px;letter-spacing:.3px;font-weight:750}
+  .sous{color:var(--or);font-size:14px;letter-spacing:2px;text-transform:uppercase;margin:0 0 10px}
+  .maj{color:var(--texte-doux);font-size:13px;margin:0}
+  .intro{
+    margin:22px 0 0;padding:16px 18px; border-left:3px solid var(--or);
+    background:rgba(255,255,255,.03); border-radius:0 10px 10px 0; color:var(--texte-doux);font-size:15px;
+  }
+  nav.sommaire{
+    margin:26px 0 0;padding:16px 18px; border:1px solid rgba(255,255,255,.08);border-radius:14px; background:var(--noir-2);
+  }
+  nav.sommaire p{margin:0 0 10px;color:var(--or-clair);font-size:13px;letter-spacing:1.5px;text-transform:uppercase}
+  nav.sommaire ol{margin:0;padding-left:20px;columns:2;column-gap:28px;font-size:14px}
+  nav.sommaire a{color:var(--texte);text-decoration:none}
+  nav.sommaire a:hover{color:var(--or-clair);text-decoration:underline}
+  @media(max-width:520px){nav.sommaire ol{columns:1}}
+  section{
+    margin:26px 0 0;padding:22px 20px; border:1px solid rgba(255,255,255,.07);border-radius:16px;
+    background:linear-gradient(180deg, rgba(255,255,255,.025), rgba(255,255,255,0));
+  }
+  h2{font-size:17px;margin:0 0 12px;color:var(--or-clair);display:flex;gap:10px;align-items:baseline}
+  h2 .num{
+    font-family:Georgia,serif;font-size:13px;color:var(--or); border:1px solid var(--bord);border-radius:50%;
+    min-width:24px;height:24px;display:inline-flex;align-items:center;justify-content:center;
+  }
+  h3{font-size:15px;margin:18px 0 6px;color:var(--texte)}
+  p,li{font-size:15px;color:var(--texte)}
+  ul{padding-left:20px}
+  li{margin:6px 0}
+  a{color:var(--or-clair)}
+  strong{color:#fff}
+  table{width:100%;border-collapse:collapse;margin:12px 0 4px;font-size:13.5px}
+  th,td{padding:10px 12px;text-align:left;border-bottom:1px solid rgba(255,255,255,.08);vertical-align:top}
+  th{color:var(--or-clair);font-weight:600;font-size:12.5px;letter-spacing:.5px;text-transform:uppercase}
+  .note{
+    margin-top:12px;padding:12px 14px;border-radius:10px; background:rgba(212,175,55,.08);
+    border:1px solid var(--bord); font-size:14px;color:var(--texte);
+  }
+  .contact{
+    margin-top:30px;padding:24px 20px;border-radius:16px; border:1px solid var(--bord);
+    background:linear-gradient(135deg, rgba(212,175,55,.14), rgba(212,175,55,.02)); text-align:center;
+  }
+  .contact h2{justify-content:center;margin-bottom:8px}
+  .contact .whats{
+    display:inline-block;margin-top:14px;padding:13px 22px;
+    background:linear-gradient(180deg,var(--or-clair),var(--or)); color:#171308;border-radius:999px;
+    text-decoration:none; font-weight:800;font-size:15px;letter-spacing:.3px; box-shadow:0 10px 26px rgba(212,175,55,.28);
+  }
+  .contact .mail{margin:14px 0 0;font-size:14.5px;color:var(--texte)}
+  .contact small{display:block;margin-top:14px;color:var(--texte-doux);font-size:12.5px}
+  footer{text-align:center;margin-top:34px;color:var(--texte-doux);font-size:12.5px}
+  footer .drap{font-size:15px}
+  .legal-nav{
+    margin:26px 0 0;padding:16px 18px;border:1px solid rgba(255,255,255,.08);border-radius:14px;
+    background:var(--noir-2);text-align:center;
+  }
+  .legal-nav p{margin:0 0 10px;color:var(--or-clair);font-size:12.5px;letter-spacing:1.5px;text-transform:uppercase}
+  .legal-nav a{
+    display:inline-block;margin:5px 6px;padding:9px 15px;border:1px solid var(--bord);border-radius:999px;
+    color:var(--texte);text-decoration:none;font-size:13.5px;
+  }
+  .legal-nav a:hover{border-color:var(--or);color:var(--or-clair)}
+  .legal-nav a.actif{background:rgba(212,175,55,.16);color:var(--or-clair)}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <header>
+    <div class="k">K</div>
+    <p class="sous">Komara Agency</p>
+    <h1>Politique de Confidentialité — Komara Agency Bot <span aria-label="Guinée">🇬🇳</span></h1>
+    <p class="maj">Dernière mise à jour : 6 novembre 2026 · Version 1.0</p>
+    <p class="intro">Cette politique explique quelles données le bot WhatsApp de Komara Agency et son assistante automatisée <strong>Aya</strong> collectent, pourquoi, combien de temps, et comment vous pouvez exercer vos droits. Elle complète nos Conditions de Service.</p>
+  </header>
+
+  <nav class="sommaire" aria-label="Sommaire">
+    <p>Sommaire</p>
+    <ol>
+      <li><a href="#qui">Qui nous sommes</a></li>
+      <li><a href="#donnees">Données collectées</a></li>
+      <li><a href="#origine">Comment nous les obtenons</a></li>
+      <li><a href="#finalites">Finalités et bases légales</a></li>
+      <li><a href="#durees">Durées de conservation</a></li>
+      <li><a href="#partage">Partage avec des tiers</a></li>
+      <li><a href="#transferts">Transferts internationaux</a></li>
+      <li><a href="#securite">Sécurité</a></li>
+      <li><a href="#droits">Vos droits</a></li>
+      <li><a href="#suppression">Suppression de vos données</a></li>
+      <li><a href="#cookies">Cookies et site web</a></li>
+      <li><a href="#mineurs">Mineurs</a></li>
+      <li><a href="#modif">Modifications</a></li>
+      <li><a href="#contact">Contact et réclamation</a></li>
+    </ol>
+  </nav>
+
+  <section id="qui">
+    <h2><span class="num">1</span>Qui nous sommes</h2>
+    <p>Le responsable du traitement des données est <strong>Komara Agency</strong>, agence digitale fondée par Ndine Komara, établie à Casablanca, Maroc.</p>
+    <p>Le référent données personnelles est <strong>Ndine Komara</strong>, joignable à <a href="mailto:ndinekomara2442@gmail.com">ndinekomara2442@gmail.com</a> ou via WhatsApp au +212 701 986 219.</p>
+  </section>
+
+  <section id="donnees">
+    <h2><span class="num">2</span>Données collectées</h2>
+    <p>Nous limitons la collecte au strict nécessaire pour répondre à votre demande et livrer nos prestations.</p>
+    <table>
+      <thead>
+        <tr><th>Catégorie</th><th>Exemples</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>Identifiants de messagerie</td><td>Numéro WhatsApp, identifiant Telegram, nom de profil</td></tr>
+        <tr><td>Contenu des échanges</td><td>Messages envoyés au bot, questions, projets, préférences</td></tr>
+        <tr><td>Fichiers transmis</td><td>Images, logos, briefs, documents envoyés pour un devis</td></tr>
+        <tr><td>Données de commande</td><td>Prestation choisie, montant, devis, facture, historique de paiement</td></tr>
+        <tr><td>Données techniques</td><td>Date et heure des messages, langue, statut de livraison, journaux d'erreurs</td></tr>
+      </tbody>
+    </table>
+    <div class="note">Nous ne demandons jamais de données sensibles (santé, religion, opinions politiques, données bancaires complètes). Ne nous les transmettez pas dans la conversation.</div>
+  </section>
+
+  <section id="origine">
+    <h2><span class="num">3</span>Comment nous les obtenons</h2>
+    <ul>
+      <li>directement, lorsque vous écrivez au bot ou à notre équipe ;</li>
+      <li>via WhatsApp et Meta, qui transmettent votre numéro et le contenu du message pour que nous puissions vous répondre ;</li>
+      <li>via Telegram, si vous nous contactez sur cette plateforme ;</li>
+      <li>via nos échanges de suivi (e-mail, appels, documents de commande).</li>
+    </ul>
+  </section>
+
+  <section id="finalites">
+    <h2><span class="num">4</span>Finalités et bases légales</h2>
+    <table>
+      <thead>
+        <tr><th>Finalité</th><th>Base légale</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>Répondre à vos messages et questions</td><td>Exécution du service demandé</td></tr>
+        <tr><td>Établir un devis, gérer une commande, livrer et facturer</td><td>Exécution du contrat / mesures précontractuelles</td></tr>
+        <tr><td>Assurer le support et le suivi après livraison</td><td>Exécution du contrat / intérêt légitime</td></tr>
+        <tr><td>Améliorer la qualité des réponses du bot</td><td>Intérêt légitime (données agrégées ou anonymisées)</td></tr>
+        <tr><td>Respecter nos obligations comptables et légales</td><td>Obligation légale</td></tr>
+        <tr><td>Vous envoyer une offre ou une information commerciale</td><td>Consentement (vous pouvez le retirer à tout moment)</td></tr>
+      </tbody>
+    </table>
+  </section>
+
+  <section id="durees">
+    <h2><span class="num">5</span>Durées de conservation</h2>
+    <ul>
+      <li><strong>Conversations et messages</strong> : 24 mois à compter du dernier échange, puis suppression ou anonymisation.</li>
+      <li><strong>Devis non acceptés</strong> : 12 mois.</li>
+      <li><strong>Commandes, factures et pièces comptables</strong> : durée légale applicable au Maroc (jusqu'à 10 ans).</li>
+      <li><strong>Journaux techniques</strong> : 6 mois maximum.</li>
+    </ul>
+    <p>Vous pouvez demander la suppression avant ces échéances : voir la section 10.</p>
+  </section>
+
+  <section id="partage">
+    <h2><span class="num">6</span>Partage avec des tiers</h2>
+    <p>Nous <strong>ne vendons ni ne louons</strong> vos données personnelles. Elles peuvent être traitées par :</p>
+    <ul>
+      <li><strong>WhatsApp / Meta</strong> et <strong>Telegram</strong>, pour l'acheminement des messages, selon leurs propres politiques ;</li>
+      <li>nos <strong>prestataires d'hébergement</strong> et nos <strong>fournisseurs de modèles d'intelligence artificielle</strong>, uniquement pour générer les réponses du bot ;</li>
+      <li>nos outils de facturation et de comptabilité, pour les seules données de commande ;</li>
+      <li>les autorités compétentes, si la loi l'exige.</li>
+    </ul>
+    <p>Ces prestataires agissent sur nos instructions et sont tenus à la confidentialité.</p>
+  </section>
+
+  <section id="transferts">
+    <h2><span class="num">7</span>Transferts internationaux</h2>
+    <p>Certains prestataires techniques peuvent stocker ou traiter des données en dehors du Maroc, notamment aux États-Unis ou dans l'Union européenne. Nous privilégions des prestataires offrant des garanties contractuelles de protection (clauses contractuelles types ou mécanismes équivalents).</p>
+  </section>
+
+  <section id="securite">
+    <h2><span class="num">8</span>Sécurité</h2>
+    <p>Nous appliquons des mesures raisonnables : accès restreint aux conversations, connexions chiffrées (HTTPS), stockage limité au nécessaire, sauvegardes protégées et suppression des données devenues inutiles.</p>
+    <p>Aucun système n'étant inviolable à 100 %, nous vous invitons à ne jamais transmettre de mot de passe, de code de vérification ou de données bancaires dans la conversation.</p>
+  </section>
+
+  <section id="droits">
+    <h2><span class="num">9</span>Vos droits</h2>
+    <p>Vous disposez des droits suivants sur vos données :</p>
+    <ul>
+      <li>être informé de leur traitement ;</li>
+      <li>y accéder et en obtenir une copie ;</li>
+      <li>les faire rectifier si elles sont inexactes ;</li>
+      <li>en demander la suppression ;</li>
+      <li>vous opposer à un traitement ou en demander la limitation ;</li>
+      <li>retirer votre consentement à tout moment, pour les traitements fondés sur celui-ci.</li>
+    </ul>
+    <p>Pour exercer ces droits, écrivez à <a href="mailto:ndinekomara2442@gmail.com">ndinekomara2442@gmail.com</a> en précisant le numéro WhatsApp utilisé. Nous répondons dans un délai de 30 jours maximum.</p>
+  </section>
+
+  <section id="suppression">
+    <h2><span class="num">10</span>Suppression de vos données</h2>
+    <p>La procédure détaillée est décrite sur notre page dédiée : <a href="suppression-donnees.html">Suppression des données utilisateur</a>.</p>
+    <p>En résumé : envoyez un e-mail avec l'objet « Suppression de mes données » depuis l'adresse de contact, ou un message WhatsApp au +212 701 986 219. Nous confirmons la suppression sous 30 jours, sauf documents que la loi nous oblige à conserver (factures).</p>
+  </section>
+
+  <section id="cookies">
+    <h2><span class="num">11</span>Cookies et site web</h2>
+    <p>Nos pages légales n'utilisent pas de cookies publicitaires ni de traceurs de suivi. Elles sont hébergées sur GitHub Pages, dont l'hébergeur peut enregistrer des journaux techniques (adresse IP, date d'accès) pour la sécurité et la disponibilité du service.</p>
+    <p>La conversation avec le bot se déroule dans WhatsApp ou Telegram, qui appliquent leurs propres politiques.</p>
+  </section>
+
+  <section id="mineurs">
+    <h2><span class="num">12</span>Mineurs</h2>
+    <p>Le service s'adresse aux personnes majeures ou aux mineurs disposant de l'autorisation d'un représentant légal. Nous ne cherchons pas à collecter sciemment des données concernant des enfants. Si vous constatez qu'un mineur nous a transmis des données sans autorisation, écrivez-nous : nous les supprimerons.</p>
+  </section>
+
+  <section id="modif">
+    <h2><span class="num">13</span>Modifications de cette politique</h2>
+    <p>Cette politique peut être mise à jour pour refléter une évolution du service ou de la réglementation. La version applicable est celle publiée sur cette page, avec sa date de mise à jour. En cas de changement important, nous vous en informerons dans la conversation.</p>
+  </section>
+
+  <div class="contact" id="contact">
+    <h2><span class="num">14</span>Contact et réclamation</h2>
+    <p><strong>Komara Agency</strong><br>Casablanca, Maroc 🇬🇳<br>Référent données personnelles : Ndine Komara</p>
+    <a class="whats" href="https://wa.me/212701986219?text=Bonjour%20Komara%20Agency%2C%20j%27ai%20une%20question%20sur%20ma%20politique%20de%20confidentialit%C3%A9">Écrire sur WhatsApp</a>
+    <p class="mail">E-mail : <a href="mailto:ndinekomara2442@gmail.com">ndinekomara2442@gmail.com</a></p>
+    <small>+212 701 986 219 · ndinekomara2442@gmail.com</small>
+  </div>
+
+  <nav class="legal-nav" aria-label="Pages légales">
+    <p>Pages légales</p>
+    <a href="index.html">Conditions de Service</a>
+    <a href="confidentialite.html" class="actif">Politique de Confidentialité</a>
+    <a href="suppression-donnees.html">Suppression des données utilisateur</a>
+  </nav>
+
+  <footer>
+    <p>© 2026 Komara Agency — Tous droits réservés · <span class="drap">🇬🇳</span></p>
+    <p>Politique de Confidentialité — Komara Agency Bot · Version 1.0 · 6 novembre 2026</p>
+    <p>Si vous estimez que vos droits ne sont pas respectés après notre réponse, vous pouvez saisir la CNDP (Commission Nationale de contrôle de la protection des Données à caractère Personnel), autorité marocaine compétente.</p>
+  </footer>
+
+</div>
+</body>
+</html>
